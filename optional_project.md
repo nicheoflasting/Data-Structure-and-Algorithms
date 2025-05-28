@@ -12,8 +12,8 @@ This project explores music data using Spotify’s API and implements a set of a
 
 **2. Algorithm Description**
 
-**Type:**
-Data analysis and visualization using sorting, aggregation, pivot-based heatmapping, and barplot.
+* **Type:**
+   Data analysis and visualization using sorting, aggregation, pivot-based heatmapping, and barplot.
 
 **Input:**
 * Artist name (e.g., Harry Styles)
