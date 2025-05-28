@@ -13,7 +13,7 @@ This project explores music data using Spotify’s API and implements a set of a
 **2. Algorithm Description**
 
 **Type:**
-Data analysis and visualization using sorting, aggregation, and pivot-based heatmapping.
+Data analysis and visualization using sorting, aggregation, pivot-based heatmapping, and barplot.
 
 **Input:**
 * Artist name (e.g., Harry Styles)
@@ -25,10 +25,14 @@ Data analysis and visualization using sorting, aggregation, and pivot-based heat
     * Track names
 
     * Track IDs
+ 
+    * Artist
 
     * Popularity scores
 
-    * Album and release dates
+    * Album
+    
+    * Release dates
 
 **Output:**
 
@@ -36,7 +40,7 @@ Data analysis and visualization using sorting, aggregation, and pivot-based heat
 
 * Bar chart showing average popularity per album.
 
-* Heatmap visualizing top 5 tracks from each album by year.
+* Heatmap visualizing top first 5 tracks from each album by year.
 
 **Key Steps in the Algorithm:**
 
@@ -90,9 +94,9 @@ Data analysis and visualization using sorting, aggregation, and pivot-based heat
 
 **5. Enhancements and Future Scope**
 
-* Apply **K-Nearest Neighbors (KNN)** or **graph search (A*)** for similarity-based recommendations. 
+* Apply **K-Nearest Neighbors (KNN)** or **graph search (A)** for similarity-based recommendations. 
 
--> For somehow I couldn't be allowed to get audio feature of songs through API spotify. So, I was not possible to retrieve data for recommended algorithms above
+-> For somehow I could not be allowed to get audio feature of songs through API spotify credentials. So, it is challenging to me to retrieve data for recommended algorithms above
 
 * Build a playlist generator based on user preferences.
 
@@ -102,6 +106,6 @@ Data analysis and visualization using sorting, aggregation, and pivot-based heat
 
 **6. Conclusion**
 
-This project successfully demonstrates the use of APIs, real-time data handling, and algorithmic visualization to analyze music track popularity. It integrates Spotify’s data with Python libraries to produce interpretable and visually appealing results. The project can be extended into a full-fledged music recommendation system.
+This project successfully demonstrates the use of APIs, real-time data handling, and algorithmic visualization to analyze music track popularity. It integrates Spotify’s data with Python libraries to produce interpretable and visually appealing results. The project can be extended into a music recommendation system.
 
 
